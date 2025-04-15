@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta charset="utf-8" />
+        <title>Mi Primer Proyecto</title>
+    </head>
+    <body>
+        <header>
+            <img src="images/logo.png" alt="Logo" />
+            <h1>Bienvenidos a Mi Proyecto</h1>
+            <h2>Este es un subtítulo en el header</h2>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Inicio"</a>
+                </li>
+                <li>
+                    <a href="#">Productos</a>
+                </li>
+                <li>
+                    <a href="#">Servicios</a>
+                </li>
+                <li>
+                    <a href="#">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <p>
+                Este es un párrafo de introducción sobre el proyecto. Aquí podés
+                usar <strong>negrita</strong>, <em>cursiva</em>, y <s>tachado</s>.
+            </p>
+            <section>
+                <video controls width="400">
+                    <source src="videos/video.mp4" type="video/mp4">
+                    <track src="videos/Spanish.vtt" kind="subtitles" srclang="es" label="Español">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+            </section>
+            <section>
+                <form action="https://formspree.io/f/xqapnjln" method="POST">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>Este es el pie de página con la información de contacto.</p>
+        </footer>
+    </body>
+</html>
